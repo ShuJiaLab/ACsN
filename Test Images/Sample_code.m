@@ -1,7 +1,5 @@
 close all
 
-PoolStart;
-
 load('cmap');
 load('gain');
 load('offset');
