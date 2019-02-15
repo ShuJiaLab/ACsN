@@ -7,7 +7,7 @@ To run ACsN graphic interface:
 To run ACsN from MATLAB command line:
 
 1) Add the folder ACsN_code to your MATLAB path (including subfolders).
-2) In the command line type help ACSN or run the Sample code script to see the code usage.
+2) In the command line type help ACSN or run the Sample code script in the Test Images folder to see the code usage.
 
 
 To run ACsN from ImageJ/Fiji follow these steps:
@@ -16,7 +16,7 @@ To run ACsN from ImageJ/Fiji follow these steps:
 2) Go to Edit > Options > MATLAB and enter the file path for MATLAB licence.
 3) Add the ACsN_code folder and subfolders to the MATLAB path.
 4) Copy the file 'ACsN_.m' to the folder '<ImageJ installation folder name>\plugins\Scripts\Process\'.
-5) Select an open image in ImageJ and then press Process > ACsN from the menu toolbar. To test the program you can use images provided in the Sample code folder.
+5) Select an open image in ImageJ and then press Process > ACsN from the menu toolbar. To test the program you can use images provided in the Test Images folder.
 
 
 
