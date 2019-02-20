@@ -1,11 +1,12 @@
-ACSN - Install
+ACSN
 =====
-
+ACSN (Automatic Correction for sCMOS-related Noise) combines an accurate estimation of noise variation with sparse filtering to eliminate the most relevant noise sources in the images of a sCMOS sensor, approaching the performance of an ideal camera. This near-ideal conditions result in a drastic reduction of pixel-dependent noise in sCMOS images and an enhanced stability of denoising performance at a competitive computational speed.
+## Install ##
 ### Graphic Interface ###
 To run ACsN graphic interface:
 
- - 1) Double-click the ACsN_app.mlappinstall file in the ACsN_matlab_app folder.
- - 2) In MATLAB, go to App>My App and double-click on ACsN_app.
+ - (1) Double-click the ACsN_app.mlappinstall file in the ACsN_matlab_app folder.
+ - (2) In MATLAB, go to App>My App and double-click on ACsN_app.
 
 ### MATLAB Command Line ###
 To run ACsN from MATLAB command line:
