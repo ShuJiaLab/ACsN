@@ -1,4 +1,4 @@
-ACSN - Strategies
+ACSN - Install
 =====
 
 ### Graphic Interface ###
