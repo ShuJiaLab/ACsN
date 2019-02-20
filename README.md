@@ -16,11 +16,11 @@ To run ACsN from MATLAB command line:
 ### ImageJ/Fiji ###
 To run ACsN from ImageJ/Fiji follow these steps:
 
- - 1) Add the ImageJ-MATLAB update site to ImageJ. To see how look at https://imagej.net/MATLAB_Scripting#Prerequisites.
+ - 1) Add the ImageJ-MATLAB update site to ImageJ. To see how, look at [here][ImageJ-MATLAB] .
  - 2) Go to Edit > Options > MATLAB and enter the file path for MATLAB licence.
  - 3) Add the ACsN_code folder and subfolders to the MATLAB path.
  - 4) Copy the file 'ACsN_.m' to the folder '<ImageJ installation folder name>\plugins\Scripts\Process\'.
  - 5) Select an open image in ImageJ and then press Process > ACsN from the menu toolbar. To test the program you can use images provided in the Test Images folder.
 
-
+[ImageJ-MATLAB]: https://imagej.net/MATLAB_Scripting#Prerequisites
 
