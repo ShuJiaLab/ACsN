@@ -4,12 +4,12 @@ ACSN
 	<table frame=void rules=none>
 		<tr>
 			<td width="75%">
-				<div style="width:650px;float:left;text-align:justify" align="left" >
+				<div style="width:650px;float:left;text-align:justify">
 					ACSN (Automatic Correction for sCMOS-related Noise) combines an accurate estimation of noise variation with sparse filtering to eliminate the most relevant noise sources in the images of a sCMOS sensor, approaching the performance of an ideal camera. This near-ideal conditions result in a drastic reduction of pixel-dependent noise in sCMOS images and an enhanced stability of denoising performance at a competitive computational speed.
 				</div>
 			</td>
 			<td width="25%">
-				<div style="width:150px;float:right;" align="right">
+				<div style="width:150px;float:right;">
 					<img src="Picture2.jpg" width=150 height=150>
 				</div>
 			</td>
