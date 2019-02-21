@@ -5,7 +5,7 @@ load('gain');
 load('offset');
 
 NA = 1.45;
-Lambda = .670;
+Lambda = .680;
 PxSize = .065;
 
 input1 = double(loadtiff('TIRF_100Hz.tif'));
