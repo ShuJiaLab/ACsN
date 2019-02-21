@@ -22,8 +22,8 @@ ACSN
 ### Graphic Interface ###
 To run ACsN graphic interface:
 
- - Double-click the ACsN_app.mlappinstall file in the ACsN_matlab_app folder.
- - In MATLAB, go to App>My App and double-click on ACsN_app.
+ - Double-click the ACsN.mlappinstall file in the ACsN_matlab_app folder.
+ - In MATLAB, go to App>My App and double-click on ACsN.
 
 ### MATLAB Command Line ###
 To run ACsN from MATLAB command line:
