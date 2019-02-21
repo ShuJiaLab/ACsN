@@ -5,7 +5,7 @@ ACSN
 		<tr>
 			<td width="75%">
 				<div style="width:650px;float:left;text-align:justify">
-					ACSN (pronounced as <i>action) stands for Automatic Correction for sCMOS-related Noise. It combines an accurate estimation of noise variation with sparse filtering to eliminate the most relevant noise sources in the images of a sCMOS sensor, approaching the performance of an ideal camera. This near-ideal conditions result in a drastic reduction of pixel-dependent noise in sCMOS images and an enhanced stability of denoising performance at a competitive computational speed.
+					ACSN (pronounced as <i>action<r>) stands for Automatic Correction for sCMOS-related Noise. It combines an accurate estimation of noise variation with sparse filtering to eliminate the most relevant noise sources in the images of a sCMOS sensor, approaching the performance of an ideal camera. This near-ideal conditions result in a drastic reduction of pixel-dependent noise in sCMOS images and an enhanced stability of denoising performance at a competitive computational speed.
 				</div>
 			</td>
 			<td width="25%">
