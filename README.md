@@ -27,7 +27,9 @@ CPU: 6+ cores, 3.2+ GHz/core
 
 ### Software Requirements ###
 MATLAB 2014b+ 
+
 MATLAB 2018a+ (Graphic interface)
+
 Windows OS 7+
 
 ## Install ##
