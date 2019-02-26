@@ -21,7 +21,7 @@ ACSN
 
 ## System Requirements ##
 ### Hardware Requirements ###
-ACsN requires a standard computer with enough RAM to support MATLAB 2014b. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, the following specs:
+ACsN requires a standard computer with enough RAM to support MATLAB 2014b. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, we recomend the following specs:
 
 RAM: 16+ GB
 CPU: 6+ cores, 3.2+ GHz/core
@@ -41,6 +41,7 @@ To run ACsN graphic interface:
 
  - Double-click the ACsN.mlappinstall file in the ACsN_matlab_app folder.
  - In MATLAB, go to App>My App and double-click on ACsN.
+ - To test the program you can use images provided in the Test Images folder.
 
 ### MATLAB Command Line ###
 To run ACsN from MATLAB command line:
@@ -55,7 +56,11 @@ To run ACsN from ImageJ/Fiji follow these steps:
  - Go to Edit > Options > MATLAB and enter the file path for MATLAB licence.
  - Add the ACsN_code folder and subfolders to the MATLAB path.
  - Copy the file 'ACsN_.m' to the folder '<ImageJ installation folder name>\plugins\Scripts\Process\'.
- - Select an open image in ImageJ and then press Process > ACsN from the menu toolbar. To test the program you can use images provided in the Test Images folder.
+ - Select an open image in ImageJ and then press Process > ACsN from the menu toolbar. 
+ - To test the program you can use images provided in the Test Images folder.
 
 [ImageJ-MATLAB]: https://imagej.net/MATLAB_Scripting#Prerequisites
+
+
+
 
