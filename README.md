@@ -28,11 +28,7 @@ CPU: 6+ cores, 3.2+ GHz/core
 ### Software Requirements ###
 MATLAB 2014b+ 
 MATLAB 2018a+ (Graphic interface)
-
-The package has been tested on the following systems:
-Linux: -
-Mac OSX: -
-Windows: 7, 8 and 10.
+Windows OS 7+
 
 ## Install ##
 ### Graphic Interface ###
@@ -40,7 +36,7 @@ To run ACsN graphic interface:
 
  - Double-click the ACsN.mlappinstall file in the ACsN_matlab_app folder.
  - In MATLAB, go to App>My App and double-click on ACsN.
- - To test the program you can use images provided in the Test Images folder.
+ - To test the program you can use the images provided in the Test Images folder. See the file Settings.txt for the aquisition parameters.
 
 ### MATLAB Command Line ###
 To run ACsN from MATLAB command line:
@@ -56,7 +52,9 @@ To run ACsN from ImageJ/Fiji follow these steps:
  - Add the ACsN_code folder and subfolders to the MATLAB path.
  - Copy the file 'ACsN_.m' to the folder '<ImageJ installation folder name>\plugins\Scripts\Process\'.
  - Select an open image in ImageJ and then press Process > ACsN from the menu toolbar. 
- - To test the program you can use images provided in the Test Images folder.
+ - To test the program you can use the images provided in the Test Images folder. See the file Settings.txt for the aquisition parameters.
+	
+The installation on a recommended computer should take less than 3 seconds.
 
 [ImageJ-MATLAB]: https://imagej.net/MATLAB_Scripting#Prerequisites
 
