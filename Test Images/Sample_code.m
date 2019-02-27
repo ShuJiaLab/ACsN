@@ -21,6 +21,6 @@ input2 = double(loadtiff('TIRF_200Hz.tif'));
 
 acsn_200  = ACSN(input2,NA,Lambda,PxSize,'Offset',offset,'Gain',gain,'Mode','Parallel'); 
 figure; 
-imagesc(imfuse(input2(:,:,1),acsn_200(:,:,1),'montage'));
+imagesc(imfuse(input2(:,:,1),acsn_200(:,:,9),'montage'));
 colormap(blow); axis off; axis image;
 title('TIRF image of HeLa microtubules recorded at 200 Hz');
