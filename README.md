@@ -1,4 +1,4 @@
-ACsN
+ACsN (Citation:Fast and Accurate sCMOS Noise Correction for Fluorescence Microscopy, Biagio Mandracchia, Xuanwen Hua, Changliang Guo, Jeonghwan Son, Tara Urner, Shu Jia, Nature Communications 11, 94 (2020))
 =====
 <div> 
 	<table frame=void rules=none>
