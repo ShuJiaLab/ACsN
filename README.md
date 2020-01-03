@@ -1,6 +1,7 @@
-ACsN 
+## ACsN ## 
 
-Citation: Fast and Accurate sCMOS Noise Correction for Fluorescence Microscopy, Biagio Mandracchia, Xuanwen Hua, Changliang Guo, Jeonghwan Son, Tara Urner, Shu Jia, Nature Communications 11, 94 (2020) doi:10.1038/s41467-019-13841-8
+### Citation ###   
+### Mandracchia, B., Hua, X., Guo, C. et al. Fast and accurate sCMOS noise correction for fluorescence microscopy. Nat Commun 11, 94 (2020) doi:10.1038/s41467-019-13841-8 ###
 
 =====
 <div> 
