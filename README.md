@@ -1,7 +1,7 @@
 ## ACsN ## 
 
 ### Citation ###   
-### Mandracchia, B., Hua, X., Guo, C. et al. Fast and accurate sCMOS noise correction for fluorescence microscopy. Nat Commun 11, 94 (2020) doi:10.1038/s41467-019-13841-8 ###
+### Mandracchia, B., Hua, X., Guo, C., Son, J., Urner, T., Jia, S. Fast and accurate sCMOS noise correction for fluorescence microscopy. Nat Commun 11, 94 (2020) doi:10.1038/s41467-019-13841-8 ###
 
 =====
 <div> 
