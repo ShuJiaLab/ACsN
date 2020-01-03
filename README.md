@@ -1,6 +1,6 @@
 ACsN 
 
-Citation:Fast and Accurate sCMOS Noise Correction for Fluorescence Microscopy, Biagio Mandracchia, Xuanwen Hua, Changliang Guo, Jeonghwan Son, Tara Urner, Shu Jia, Nature Communications 11, 94 (2020)
+Citation: Fast and Accurate sCMOS Noise Correction for Fluorescence Microscopy, Biagio Mandracchia, Xuanwen Hua, Changliang Guo, Jeonghwan Son, Tara Urner, Shu Jia, Nature Communications 11, 94 (2020) doi:10.1038/s41467-019-13841-8
 
 =====
 <div> 
@@ -8,7 +8,7 @@ Citation:Fast and Accurate sCMOS Noise Correction for Fluorescence Microscopy, B
 		<tr>
 			<td width="75%">
 				<div style="width:650px;float:left" align="justify">
-					ACSN (pronounced as <i>action</i>) stands for Automatic Correction of sCMOS-related Noise. It combines an accurate estimation of noise variation with sparse filtering to eliminate the most relevant noise sources in the images of a sCMOS sensor. This results in a drastic reduction of pixel-dependent noise in sCMOS images and an enhanced stability of denoising performance at a competitive computational speed.
+					ACsN (pronounced as <i>action</i>) stands for Automatic Correction of sCMOS-related Noise. It combines an accurate estimation of noise variation with sparse filtering to eliminate the most relevant noise sources in the images of a sCMOS sensor. This results in a drastic reduction of pixel-dependent noise in sCMOS images and an enhanced stability of denoising performance at a competitive computational speed.
 				</div>
 			</td>
 			<td width="25%">
