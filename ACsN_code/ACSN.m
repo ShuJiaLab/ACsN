@@ -1,7 +1,7 @@
 % ACsN   Automatic Correction of sCMOS-related Noise
 %
 % SYNOPSIS:
-%   [img, sigma, elapsedTime] = ACSN(I,NA,Lambda,PixelSize,PropertyName,PropertyValue)
+%   [img, Qscore,elapsedTime, sigma] = ACSN(I,NA,Lambda,PixelSize,PropertyName,PropertyValue)
 %
 % INPUTS:
 %   I
@@ -24,14 +24,16 @@
 %       Hotspot    (hotspot removal)
 %           0 | 1 (default)
 %       Mode
-%           'Normal' (default) | 'Parallel'
-%       SaveFileName
-%           User specified name (the default file name is 'ACSN_<starting date and time>.tiff')
+%           'Normal' | 'Fast' (default) | 'Bright' (like Fast but adapted for bright images)
+%       Window (for Bright mode)
+%           64 (default)| 32-256
 %
 %
 % OUTPUTS:
 %   img
 %       Denoised image
+%   Qscore
+%       Image quality score
 %   sigma
 %       estimated noise variation
 %   elapsedTime
@@ -49,13 +51,17 @@ function [img, varargout] = ACSN(I,NA,Lambda,PixelSize,varargin) %#ok<INUSD>
 %% ouverture
 timerVal = tic;
 img = zeros(size(I));
-sigma = zeros(size(I,3),1);
+Qscore = zeros(size(I,3),1);
+sigma = [];
+Qmap = zeros(size(I)); %#ok<NASGU>
 ACSN_initialization;
 
 %% main theme
 
-if strcmp(Mode,'Parallel')
+if strcmp(Mode,'Fast')
     ACSN_processing_parallel;
+elseif strcmp(Mode,'Bright')
+    ACSN_processing_parallel2;
 elseif size(I,3)>1
     ACSN_processing_video;
 else
@@ -68,10 +74,17 @@ end
 elapsedTime = toc(timerVal);
 fprintf('\nElapsed time:')
 disp(elapsedTime);
-fprintf('Sigma average:')
-disp(mean(sigma(:))); 
+fprintf('Average Quality: ')
+Av_qI  = mean(Qscore(:));
+if Av_qI >= 0.6
+    cprintf([0,0.5,0],[num2str(Av_qI) '\n\n']);
+elseif abs(Av_qI - 0.5) < 0.1
+    cprintf([0.75,0.5,0],[num2str(Av_qI) '\n\n']);
+else
+    cprintf([0.75,0,0],[num2str(Av_qI) '\n\n']);
+end
 
-out = {sigma,elapsedTime};
+out = {Qscore,elapsedTime,sigma};
 
 for idx = 1:(nargout-1)
     varargout{idx} = out{idx}; %#ok<AGROW>

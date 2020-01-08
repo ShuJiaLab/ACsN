@@ -42,9 +42,9 @@ end
 % parallel
 %disp(ParChoice)
 if ParChoice(1) == 'n'
-Mode = 'Normal'
+Mode = 'Normal';
 else
-Mode = 'Parallel';
+Mode = 'Fast';
 %disp(parallel)
 end
 
