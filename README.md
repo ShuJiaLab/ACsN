@@ -18,6 +18,11 @@ ACsN
 	<!-- <div style="clear:both"></div>  -->
 </div>
 
+## Citation ##
+Please, cite our paper on [Nature Communications].
+
+Mandracchia, B., Hua, X., Guo, C. et al. Fast and accurate sCMOS noise correction for fluorescence microscopy. Nat Commun 11, 94 (2020) doi:10.1038/s41467-019-13841-8
+
 ## System Requirements ##
 ### Hardware Requirements ###
 ACsN requires a standard computer with enough RAM to support MATLAB 2014b. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, we recomend the following specs:
@@ -59,11 +64,6 @@ To run ACsN from ImageJ/Fiji follow these steps:
  - To test the program you can use the images provided in the Test Images folder. See the file Settings.txt for the aquisition parameters.
 	
 The installation on a recommended computer should take less than 3 seconds.
-
-## Citation ##
-Please, cite our paper on [Nature Communications].
-
-Mandracchia, B., Hua, X., Guo, C. et al. Fast and accurate sCMOS noise correction for fluorescence microscopy. Nat Commun 11, 94 (2020) doi:10.1038/s41467-019-13841-8
 
 [ImageJ-MATLAB]: https://imagej.net/MATLAB_Scripting#Prerequisites
 [Nature Communications]: https://www.nature.com/articles/s41467-019-13841-8
