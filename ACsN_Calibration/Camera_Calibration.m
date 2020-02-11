@@ -9,8 +9,8 @@
 % specific information about your device.
 %
 % [1] Huang, F., Hartwich, T., Rivera-Molina, F. et al. Video-rate
-%     nanoscopy using sCMOS camera–specific single-molecule localization
-%     algorithms. Nat Methods 10, 653–658 (2013).
+%     nanoscopy using sCMOS cameraâ€“specific single-molecule localization
+%     algorithms. Nat Methods 10, 653â€“658 (2013).
 %     https://doi.org/10.1038/nmeth.2488
 %
 % [2] James R. Janesick, Photon Transfer, SPIE (2007)
@@ -37,8 +37,8 @@ else
     for i = 1:L
         disp(['Loading ', fullfile(path,D(i).name)]);
         im = double(loadtiff(fullfile(path,D(i).name)));
-        Offset(i) = mean(im,3);
-        Variance(i) = var(im,[],3);
+        Offset(:,:,i) = mean(im,3);
+        Variance(:,:,i) = var(im,[],3);
     end
 end
 
