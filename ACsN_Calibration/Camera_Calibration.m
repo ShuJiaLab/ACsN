@@ -32,12 +32,10 @@ if isequal(file,0)
 else
     D = dir([path, file(1:4), '*.tif*']);
     L = length(D);
-    Offset = zeros(L,1);
-    Variance = zeros(L,1);
     for i = 1:L
         disp(['Loading ', fullfile(path,D(i).name)]);
         im = double(loadtiff(fullfile(path,D(i).name)));
-        Offset(:,:,i) = mean(im,3);
+        Offset(:,:,i) = mean(im,3); %#ok<*SAGROW>
         Variance(:,:,i) = var(im,[],3);
     end
 end
